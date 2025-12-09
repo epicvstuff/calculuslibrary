@@ -16,7 +16,7 @@ A high-performance calculus library for Python with a C++ backend. Provides nume
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/calculus.git
+git clone https://github.com/epicvstuff/calculuslibrary.git
 cd calculus
 
 # Install with pip
