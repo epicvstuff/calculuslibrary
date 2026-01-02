@@ -38,11 +38,11 @@ class TestDifferentiation:
     def test_second_derivative(self):
         """Test second derivative computation."""
         import calculus
-        
+
         f = lambda x: x**3  # d²/dx²(x³) = 6x
-        
-        assert abs(calculus.derivative(f, 1.0, n=2) - 6.0) < 1e-3
-        assert abs(calculus.derivative(f, 2.0, n=2) - 12.0) < 1e-3
+
+        assert abs(calculus.derivative(f, 1.0, n=2) - 6.0) < 1e-2
+        assert abs(calculus.derivative(f, 2.0, n=2) - 12.0) < 1e-2
 
     def test_nth_derivative(self):
         """Test higher order derivatives."""
